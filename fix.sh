@@ -14,13 +14,6 @@ apps=("launcher" "networkmenu" "powermenu" "mpd" "network" "screenshot")
 themes_len=${#themes[@]}
 apps_len=${#apps[@]}
 
-fix="
-element-text, element-icon {
-    background-color: inherit;
-    text-color:       inherit;
-}
-"
-
 
 for (( i=0; i<$themes_len; i++ ))
 do
